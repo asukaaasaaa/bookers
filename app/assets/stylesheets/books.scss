@@ -6,6 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  color: #333;
+}
 
 .body {
   background-color: #fff;
@@ -24,6 +27,13 @@
 }
 .cell {
   padding: 1px 5px 7px;
+}
+.cell2 {
+  padding: 1px 5px 7px;
+}
+.cell2 a:hover{
+  color: #fff;
+  background-color: #000;
 }
 
 .newbook {
@@ -47,7 +57,17 @@ input {
   padding: 1px 6px;
 }
 
-.edit {
+.show {
   line-height: 18px;
   margin: 33px;
+}
+.link {
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+.link a:hover {
+  color: #fff;
+  background-color: #000;
 }
